@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Dominik Linn</title>
+  </head>
+  <body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> Dominik Linn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Publications <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-dark align-content-end">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="https://www.linkedin.com/in/dominik-linn-a6a75318a/">
+                        <img alt="LinkedIN logo" src="icons/LI-In-Bug.png" width="16px">
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://github.com/DominikLinn">
+                        <img alt="GitHub logo" src="icons/GitHub-Mark-Light-64px.png" width="16px">
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://orcid.org/0000-0003-1068-8235">
+                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://www.researchgate.net/profile/Dominik-Linn">
+                        <img alt="Researchgate logo" src="icons/ResearchGate_icon_SVG.png" width="16px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="container-fluid h1 p-2 bg-white text-dark align-content-start">
+            Publications
+        </div>
+
+        <div class="container-fluid h2 p-2 bg-white text-dark align-content-start">
+            2021
+        </div>
+        <div id="pub2021">
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub2021-1-head">
+                    <h5 class="mb-0">
+                        <div class="btn-link align-content-lgstart text-light" data-toggle="collapse" data-target="#pub2021-1" aria-expanded="false" aria-controls="pub2021-1">
+                            <b>Adjoint based optimal control of nonlocal advection with bilinear mixed constraints in H<sup>1</sup></b><br/>
+                            <small><u>Linn D.</u>, Mohring J., and Pinnau R.</small><br/>
+                            <small><i>Proceddings in Applied Mathematics and Mechanics</i> (2021)</small>
+                        </button>
+                    </h5>
+                </div>
+            
+                <div id="pub2021-1" class="collapse hide" aria-labelledby="pub2021-1-head" data-parent="#pub2021">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            In district heating, it is often required to control the system in such a way, that temperature and supply power are simultaneously bounded, 
+                            which results in a set of box constraints for the control variable, and mixed bilinear state-control-constraint. 
+                            The latter one is relaxed using a Moreau-Yosida penalty approach, leading to a parametrized series of optimization problem, 
+                            whereas the former one is handled by projection. This problem is studied at the example simplified one-pipeline model, 
+                            and numerically solved using a projected gradient algorithm. Due to the regularity required by the nonlocal boundary condition, 
+                            the control variable has to be a function in H1 , such that the gradient computation and projection steps require an additional elliptic 
+                            subproblem, which has to be solved.
+                        </p>
+                        <a href="https://doi.org/10.1002/pamm.202100240">doi : 10.1002/pamm.202100240</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub-2021-2-head">
+                    <h5 class="mb-0">
+                        <div class="btn-link align-content-start text-light" data-toggle="collapse" data-target="#pub2021-2" aria-expanded="false" aria-controls="pub2021-2">
+                            <b>District Heating Networks – Dynamic Simulation and Optimal Operation</b><br/>
+                            <small>Mohring J., <u>Linn D.</u>, Eimer M., Rein M., and Siedow N.</small><br/>
+                            <small><i>Mathematics in Industry vol. 34, pp. 303-325</i> (2021)</small>
+                        </div>
+                    </h5>
+                </div>
+                <div id="pub2021-2" class="collapse hide" aria-labelledby="pub2021-2-head" data-parent="#pub2021">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            District heating networks will play a prominent role in sector coupling. On the one hand, they can help compensating for fluctuations 
+                            in renewable power generation. On the other hand, they allow to use waste heat from industrial processes instead of natural gas. 
+                            However, this new role of district heating will also require new operating modes, deeper insight into the network and, consequently, 
+                            more sophisticated simulation and optimization tools. Here, we deal with an optimal control problem which is dominated by time-varying 
+                            delays between heat source and consumers: optimal preheating. The goal is to satisfy a periodic demand with a constant heat supply. 
+                            This problem is still simple, as no devices like turbines are involved. But it contains already all challenges of simulating dynamic networks 
+                            and, therefore, represents an ideal benchmark. We present a suitable mathematical model, some illustrative analytic examples, 
+                            an efficient numerical scheme, and a solution to optimal preheating for a real municipal network. The model is both, accurate enough to predict 
+                            pressure drop or cooling, but also simple enough to allow for fast numerical solution by a method of characteristics.
+                             Automatic differentiation is used for both, computing exact Jacobians within Newton’s method and providing an optimizer with sensitivities.
+                        </p>
+                        <a href="https://doi.org/10.1007/978-3-030-62732-4_14">doi : 10.1007/978-3-030-62732-4_14</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <div class="container-fluid h2 p-2 bg-white text-dark align-content-start">
+            2019
+        </div>
+        <div id="pub2019">
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub2019-1-head">
+                    <h5 class="mb-1">
+                        <div class="btn-link align-content-start text-light" data-toggle="collapse" data-target="#pub2019-1" aria-expanded="true" aria-controls="pub2019-1">
+                            <b>Optimal control of district heating networks</b><br/>
+                            <small><u>Linn D.</u>, Mohring J., and Pinnau R.</small><br/>
+                            <small><i>Proceddings in Applied Mathematics and Mechanics</i> (2019)</small>
+                        </div>
+                    </h5>
+                </div>
+            
+                <div id="pub2019-1" class="collapse hide" aria-labelledby="pub2019-1-head" data-parent="#pub2019">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            Standard models for district heating networks usually lead to a high number of coupled nonlinear and algebraic equations, 
+                            which makes an optimal control of such networks a difficult task. 
+                            We present an iterative algorithm, in which we separately resolve the high dimensional equality constraints, 
+                            leaving us with a series of low dimensional quadratic programs with linear inequality constraints, which can be solved by established methods.
+                        </p>
+                        <a href="https://doi.org/10.1002/pamm.201900491">doi : 10.1002/pamm.201900491</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid h2 p-2 bg-white text-dark align-content-start">
+            2017
+        </div>
+        <div id="pub2017">
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub2019-1-head">
+                    <h5 class="mb-1">
+                        <div class="btn-link align-content-start text-light" data-toggle="collapse" data-target="#pub2017-1" aria-expanded="true" aria-controls="pub2017-1">
+                            <b>Ensight4Matlab: read, process, and write files in EnSight® Gold format from C++ or MATLAB®</b><br/>
+                            <small>Schmeißer A., Burkhart D., <u>Linn D.</u>, Schnebele J., Ettmüller M., Gramsch S., and Arne W.</small><br/>
+                            <small><i>Journal of Open Source Software</i> (2017)</small>
+                        </div>
+                    </h5>
+                </div>
+            
+                <div id="pub2017-1" class="collapse hide" aria-labelledby="pub2017-1-head" data-parent="#pub2017">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            Ensight4Matlab let’s you read, process, and write files in EnSight® Gold format (CEI software, Inc 2017) from your C++ or MATLAB® code (MATLAB 2016).
+                            Data in the EnSight Gold format represents a 3D mesh and variable fields defined over the domain of this mesh. The mesh and/or variables may be either 
+                            static in time or time- varying (transient). The EnSight Gold format is used to save e.g. CFD and CAE data in research and industrial applications, 
+                            and widely supported by many software tools.
+                            This packages provides a C++ based library to process e.g. CFD data sets in EnSight Format, which you can directly link (statically or dynamically) 
+                            to your application. Ad- ditionally, it provides a language binding for MATLAB to easily use the C++ library in your MATLAB scripts, e.g. for analysis and rapid protoyping.
+                            We have extensively used this library to integrate our own simulations of fiber dynam- ics (e.g. (Gramsch, Schmeißer, and Wegener 2016)) with CFD data computed by the 
+                            commercial CFD solver ANSYS® Fluent (ANSYS 2016).
+                        </p>
+                        <a href="https://doi.org/10.21105/joss.00217">doi : 10.21105/joss.00217</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid h2 p-2 bg-white text-dark align-content-start">
+            2016
+        </div>
+        <div id="pub2016">
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub2016-1-head">
+                    <h5 class="mb-1">
+                        <div class="btn-link align-content-start text-light" data-toggle="collapse" data-target="#pub2016-1" aria-expanded="true" aria-controls="pub2016-1">
+                            <b>Reconstruction of three dimensional fiber structures from orthogonal projections</b><br/>
+                            <small><u>Linn D.</u></small><br/>
+                            <small><i>Master Thesis</i> (2016)</small>
+                        </div>
+                    </h5>
+                </div>
+            
+                <div id="pub2016-1" class="collapse hide" aria-labelledby="pub2016-1-head" data-parent="#pub2016">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="container-fluid h2 p-2 bg-white text-dark align-content-start">
+            2012
+        </div>
+        <div id="pub2012">
+            <div class="card m-1">
+                <div class="card-header bg-dark" id="pub2012-1-head">
+                    <h5 class="mb-1">
+                        <div class="btn-link align-content-start text-light" data-toggle="collapse" data-target="#pub2012-1" aria-expanded="true" aria-controls="pub2012-1">
+                            <b>Ensight4Matlab: read, process, and write files in EnSight® Gold format from C++ or MATLAB®</b><br/>
+                            <small><u>Linn D.</u></small><br/>
+                            <small><i>Bachelor Thesis</i> (2012)</small>
+                        </div>
+                    </h5>
+                </div>
+            
+                <div id="pub2012-1" class="collapse hide" aria-labelledby="pub2012-1-head" data-parent="#pub2012">
+                    <div class="card-body">
+                        <h6>Abstract</h6>
+                        <p>
+                            ....
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+
+    </div>
+    
+  </body>
+</html>
